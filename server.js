@@ -3,7 +3,7 @@ var http = require('http');
 var serviceSDK = require('lc-sdk-node.js');
 
 var DISCOVERY_SERVICE_URLS = (process.env.DISCOVERY_SERVICE_URLS || '').split(/\s*;\s*|\s*,\s*/);
-var serviceClient = serviceSDK({ discoveryServers: DISCOVERY_SERVICE_URLS, timeout: 2000 });
+var serviceClient = serviceSDK({ discoveryServers: DISCOVERY_SERVICE_URLS, timeout: 5000 });
 var availableUrls = [];
 
 resolve();
