@@ -1,0 +1,17 @@
+{
+  "name": "proxy-service",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Proxy service",
+  "main": "server.js",
+  "dependencies": {
+    "http-proxy": "^1.11.1",
+    "lc-sdk-node.js": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "mike@subkit.io",
+  "license": "MIT"
+}
