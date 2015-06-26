@@ -23,8 +23,8 @@ http://46.101.191.124:8080/api/containers?pull=true \
     "SERVICE_CHECK_SCRIPT":"curl -s http://46.101.191.124:80/healthcheck",
     "DISCOVERY_SERVICE_URLS":"http://46.101.138.192:8500,http://46.101.191.124:8500",
     "SERVICE_PORT":"80",
-    "ecommerce-admin.subkit.io":"46.101.191.124:5010",
-    "ecommerce.subkit.io":"46.101.191.124:5555",
+    "ECOMMERCE-ADMIN.SUBKIT.IO":"46.101.191.124:5010",
+    "ECOMMERCE.SUBKIT.IO":"46.101.191.124:5555",
     "LOGS":"true"
   },
   "hostname":"",
