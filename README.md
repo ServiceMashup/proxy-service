@@ -50,7 +50,7 @@ http://46.101.191.124:8080/api/containers?pull=true \
     "SERVICE_PORT":"80",
     "ECOMMERCE-ADMIN.SUBKIT.IO":"46.101.191.124:5010",
     "ECOMMERCE.SUBKIT.IO":"46.101.191.124:5555",
-    "LOGS":"true"
+    "LOG":"true"
   },
   "hostname":"",
   "domain":"",
