@@ -31,6 +31,6 @@ docker run -t -i -p $SERVICE_PORT:$SERVICE_PORT proxy-service
 ##Publish into private repository
 
 ```
-docker tag proxy-service $PUBLISH_SERVICE/proxy-service:$SERVICE_VERSION
+docker tag proxy-service:latest $PUBLISH_SERVICE/proxy-service:$SERVICE_VERSION
 docker push $PUBLISH_SERVICE/proxy-service:$SERVICE_VERSION
 ```
